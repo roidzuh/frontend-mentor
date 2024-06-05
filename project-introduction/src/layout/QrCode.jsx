@@ -36,7 +36,7 @@ const TextP = styled.p`
 export default function QrCode() {
   return (
     <Container>
-      <QrImage src="image-qr-code.png" />
+      <QrImage src="image-qr-code.png" alt="qr-code" />
       <Wrapper>
         <TextH2>Improve your front-end skills by building projects</TextH2>
         <TextP>
