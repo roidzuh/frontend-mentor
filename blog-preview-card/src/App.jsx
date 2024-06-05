@@ -34,7 +34,7 @@ const Wrapper = styled.div`
   gap: 12px;
 `;
 
-const Label = styled.h4`
+const Label = styled.h2`
   align-self: flex-start;
   font-weight: 800;
   background-color: #f4d04e;
@@ -66,7 +66,7 @@ const ImageProfile = styled.img`
   border-radius: 50%;
 `;
 
-const Name = styled.h4``;
+const Name = styled.h3``;
 
 export default function App() {
   return (
