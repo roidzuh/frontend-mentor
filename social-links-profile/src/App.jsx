@@ -9,9 +9,9 @@ const links = [
 ];
 
 const Container = styled.div`
-  background-color: hsl(0, 0%, 8%);
+  background-color: #1f1f1f;
   width: 384px;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 40px;
 
   display: grid;
@@ -55,6 +55,7 @@ const LinkSosmed = styled.li`
   text-align: center;
   border-radius: 8px;
   color: #fff;
+  transition: 0.3s all;
   cursor: pointer;
 
   a {
@@ -67,6 +68,7 @@ const LinkSosmed = styled.li`
   }
 
   &:hover {
+    transition: 0.3s all;
     background-color: #c4f82a;
     color: #333333;
   }
