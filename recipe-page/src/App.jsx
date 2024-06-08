@@ -55,7 +55,9 @@ const Preparation = styled.div`
   padding: 28px;
   border-radius: 12px;
 
-  h3 {
+  h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
     color: #7a284e;
     font-size: 20px;
     font-weight: semibold;
@@ -157,7 +159,7 @@ export default function App() {
           </p>
         </Title>
         <Preparation>
-          <h3>Preparation time</h3>
+          <h2>Preparation time</h2>
           <ul>
             <li>
               <span>Total</span>: Approximately 10 minutes
