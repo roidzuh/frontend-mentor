@@ -1,0 +1,4 @@
+[build]
+base = "product-preview-card"
+publish = "dist"
+command = "npm run build"
