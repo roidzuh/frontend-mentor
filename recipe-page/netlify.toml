@@ -1,0 +1,4 @@
+[build]
+base = "frontend-mentor/recipe-page"
+publish = "dist"
+command = "npm run build"
