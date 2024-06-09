@@ -6,3 +6,4 @@ Link Deploy Project:
 4. recipe-page : https://dazzling-griffin-049e7f.netlify.app/
 5. product-preview-card : https://illustrious-kleicha-d88941.netlify.app/
 6. four-card-feature-section: https://thriving-lollipop-fb0877.netlify.app/
+7. testimonials-grid-section : https://thunderous-begonia-86252f.netlify.app/
