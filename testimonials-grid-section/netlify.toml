@@ -1,0 +1,4 @@
+[build]
+base = "testimonials-grid-section"
+publish = "dist"
+command = "npm run build"
