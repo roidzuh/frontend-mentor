@@ -1,0 +1,4 @@
+[build]
+base = "four-card-feature-section"
+publish = "dist"
+command = "npm run build"
