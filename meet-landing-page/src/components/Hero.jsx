@@ -98,7 +98,7 @@ const ButtonGroup = styled.div`
 export default function Hero() {
   return (
     <Container>
-      <ImgLeft src="tablet\image-hero.png"></ImgLeft>
+      <ImgLeft src="tablet\image-hero.png" alt="hero-image"></ImgLeft>
 
       <Wrapper>
         <h1>

@@ -9,5 +9,5 @@ const LogoMeet = styled.img`
 `;
 
 export default function Logo() {
-  return <LogoMeet src="logo.svg"></LogoMeet>;
+  return <LogoMeet src="logo.svg" alt="meet"></LogoMeet>;
 }

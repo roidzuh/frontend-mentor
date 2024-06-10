@@ -6,5 +6,5 @@ const StyledImage = styled.img`
 `;
 
 export default function FeatureImage({ image }) {
-  return <StyledImage src={image}></StyledImage>;
+  return <StyledImage src={image} alt="feature image"></StyledImage>;
 }
