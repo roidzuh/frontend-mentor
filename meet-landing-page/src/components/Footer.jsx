@@ -53,6 +53,7 @@ const StyledFooter = styled.footer`
 
   @media (min-width: 1310px) {
     padding: 116px 165px 104px 165px;
+    gap: 50px;
     flex-direction: row;
     text-align: start;
     background-image: linear-gradient(
@@ -68,7 +69,7 @@ const StyledFooter = styled.footer`
 
     p {
       padding: 0;
-      margin: 0 92px 0 125px;
+      /* margin: 0 92px 0 125px; */
     }
   }
 `;
