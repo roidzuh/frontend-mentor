@@ -117,7 +117,7 @@ export default function Hero() {
           </Button>
         </ButtonGroup>
       </Wrapper>
-      <ImgRight></ImgRight>
+      <ImgRight alt="hero-image"></ImgRight>
     </Container>
   );
 }
