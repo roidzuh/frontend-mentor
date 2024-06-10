@@ -1,0 +1,4 @@
+[build]
+base = "meet-landing-page"
+publish = "dist"
+command = "npm run build"
