@@ -15,7 +15,6 @@ const Container = styled.section`
   @media (min-width: 1310px) {
     margin-top: 108px;
     grid-template-columns: 1fr 2fr 1fr;
-    gap: 84px;
     margin-bottom: 194px;
   }
 `;
@@ -43,7 +42,6 @@ const Wrapper = styled.div`
   }
 
   @media (min-width: 1310px) {
-    /* grid-column: 1/-1; */
     padding: 0;
 
     h1 {
