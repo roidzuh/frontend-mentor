@@ -12,7 +12,7 @@ const Container = styled.section`
     margin-bottom: 160px;
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
     margin-top: 108px;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 84px;
@@ -42,7 +42,7 @@ const Wrapper = styled.div`
     }
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
     /* grid-column: 1/-1; */
     padding: 0;
 
@@ -65,7 +65,8 @@ const ImgLeft = styled.img`
   @media (min-width: 768px) {
     margin-bottom: 72px;
   }
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
+    width: initial;
     content: url('desktop/image-hero-left.png');
     margin-left: -10%;
     position: relative;
@@ -75,13 +76,11 @@ const ImgLeft = styled.img`
 
 const ImgRight = styled.img`
   display: none;
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
     position: relative;
     top: 50px;
-    width: 110%;
     margin-left: 10%;
     display: block;
-    width: 100%;
     content: url('desktop/image-hero-right.png');
   }
 `;

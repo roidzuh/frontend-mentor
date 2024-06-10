@@ -51,7 +51,7 @@ const StyledFooter = styled.footer`
     }
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
     padding: 116px 165px 104px 165px;
     flex-direction: row;
     text-align: start;

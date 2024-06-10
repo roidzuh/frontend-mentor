@@ -8,7 +8,7 @@ const StyledFeature = styled.section`
     margin-bottom: 164px;
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
     margin-bottom: 156px;
   }
 `;
@@ -27,7 +27,7 @@ const WrapperImage = styled.div`
     padding: 0 40px;
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
     padding: 0 165px;
     margin-bottom: 80px;
     gap: 30px;
@@ -56,7 +56,7 @@ const WrapperContent = styled.div`
     }
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1310px) {
     padding: 0 450px;
 
     h2 {
