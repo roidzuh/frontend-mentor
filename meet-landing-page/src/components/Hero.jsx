@@ -13,7 +13,7 @@ const Container = styled.section`
   }
 
   @media (min-width: 1025px) {
-    margin-top: 61px;
+    margin-top: 108px;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 84px;
     margin-bottom: 194px;
@@ -68,13 +68,16 @@ const ImgLeft = styled.img`
   @media (min-width: 1025px) {
     content: url('desktop/image-hero-left.png');
     margin-left: -10%;
-    margin-bottom: 0;
+    position: relative;
+    top: -45px;
   }
 `;
 
 const ImgRight = styled.img`
   display: none;
   @media (min-width: 1025px) {
+    position: relative;
+    top: 50px;
     width: 110%;
     margin-left: 10%;
     display: block;
