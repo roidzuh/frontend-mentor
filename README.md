@@ -8,3 +8,4 @@ Link Deploy Project:
 6. four-card-feature-section: https://thriving-lollipop-fb0877.netlify.app/
 7. testimonials-grid-section : https://thunderous-begonia-86252f.netlify.app/
 8. meet-landing-page : https://sensational-swan-0312f9.netlify.app/
+9. article-preview-component : https://clinquant-speculoos-090270.netlify.app/
