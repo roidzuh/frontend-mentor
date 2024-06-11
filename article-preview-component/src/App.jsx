@@ -183,7 +183,11 @@ export default function App() {
               <StyledDate>28 Jun 2020</StyledDate>
             </div>
           </div>
-          <Button onIsOpen={handleIsopen} />
+          <Button
+            onIsOpen={handleIsopen}
+            bgnColor={isOpen ? '#6E8098' : ''}
+            btnColor={isOpen ? '#fff' : ''}
+          />
         </WrapperProfile>
       </StyledWrapper>
       {isOpen && (

@@ -9,9 +9,11 @@ const StyledShare = styled.button`
   padding: 9px;
   width: 32px;
   height: 32px;
+  transition: all 0.2s ease-in;
 
   & > svg {
     fill: ${(props) => props.$btnColor || '#6E8098'};
+    transition: all 0.2s ease-in;
   }
 `;
 
