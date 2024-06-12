@@ -23,6 +23,7 @@ function Form({ onSuccess, setEmail, email }) {
     if (validateEmail(email)) {
       setEror(false);
       onSuccess(true);
+      setEmail('');
     }
   };
 
