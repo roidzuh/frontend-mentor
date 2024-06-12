@@ -56,19 +56,25 @@ export default function App() {
           </Paragraf>
           <div className="flex flex-col gap-2 ">
             <div className="flex gap-4 items-start">
-              <Icon src="/icon-list.svg" />
+              <Icon
+                src="/icon-list.svg"
+                alt="Product discovery and building what matters"
+              />
               <Paragraf className="text-custom-size-16 text-custom-dark-navy">
                 Product discovery and building what matters
               </Paragraf>
             </div>
             <div className="flex gap-4 items-start">
-              <Icon src="/icon-list.svg" />
+              <Icon
+                src="/icon-list.svg"
+                alt="Measuring to ensure updates are a success"
+              />
               <Paragraf className="text-custom-size-16 text-custom-dark-navy">
                 Measuring to ensure updates are a success
               </Paragraf>
             </div>
             <div className="flex gap-4 items-start">
-              <Icon src="/icon-list.svg" />
+              <Icon src="/icon-list.svg" alt="And much more!" />
               <Paragraf className="text-custom-size-16 text-custom-dark-navy">
                 And much more!
               </Paragraf>
