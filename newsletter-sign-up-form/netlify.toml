@@ -1,0 +1,4 @@
+[build]
+base = "newsletter-sign-up-form"
+publish = "dist"
+command = "npm run build"
