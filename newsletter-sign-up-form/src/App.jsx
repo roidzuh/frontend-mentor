@@ -8,6 +8,7 @@ import Button from './components/Button';
 
 export default function App() {
   const [success, setSuccess] = useState(false);
+  const [email, setEmail] = useState('');
 
   if (success) {
     return (
@@ -20,8 +21,8 @@ export default function App() {
           />
           <Paragraf className="text-custom-size-16 text-custom-dark-navy mb-64 lg:mb-10">
             A confirmation email has been sent to{' '}
-            <span className="font-bold">ash@loremcompany.com</span>. Please open
-            it and click the button inside to confirm your subscription
+            <span className="font-bold">{email}</span>. Please open it and click
+            the button inside to confirm your subscription
           </Paragraf>
           <Button
             text="Dismiss message"
@@ -80,7 +81,7 @@ export default function App() {
               </Paragraf>
             </div>
           </div>
-          <Form onSuccess={setSuccess} />
+          <Form onSuccess={setSuccess} setEmail={setEmail} email={email} />
         </div>
       </Card>
     </main>

@@ -3,8 +3,8 @@ import Button from './Button';
 import Paragraf from './Paragraf';
 import Label from './Label';
 
-function Form({ onSuccess }) {
-  const [email, setEmail] = useState('');
+function Form({ onSuccess, setEmail, email }) {
+  // const [email, setEmail] = useState('');
   const [eror, setEror] = useState(false);
   const validasi = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
