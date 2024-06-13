@@ -1,0 +1,4 @@
+[build]
+base = "time-tracking-dashboard"
+publish = "dist"
+command = "npm run build"
