@@ -1,4 +1,4 @@
 [build]
-base = "tip-claculator-app"
+base = "tip-calculator-app"
 publish = "dist"
 command = "npm run build"
