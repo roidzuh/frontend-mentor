@@ -1,0 +1,4 @@
+[build]
+base = "tip-claculator-app"
+publish = "dist"
+command = "npm run build"
