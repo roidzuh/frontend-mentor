@@ -11,3 +11,4 @@ Link Deploy Project:
 9. article-preview-component : https://clinquant-speculoos-090270.netlify.app/
 10. newsletter-sign-up-form : https://friendly-taffy-2fa332.netlify.app/
 11. time-tracking-dashboard : https://thunderous-toffee-bf6a26.netlify.app/
+12. tip-calculator-app : https://tip-calculator-app-fe-me.netlify.app/
