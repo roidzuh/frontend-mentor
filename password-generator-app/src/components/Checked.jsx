@@ -1,6 +1,6 @@
 function Checked({ title, check, setCheck }) {
   return (
-    <div className="flex items-center gap-5 gap-6">
+    <div className="flex items-center gap-5 md:gap-6">
       {/* Checkbox container */}
       <label className="relative flex items-center cursor-pointer">
         {/* Hidden default checkbox */}
