@@ -138,6 +138,25 @@ function App() {
         <Strength strength={strength} />
         <BtnGenerate onClick={handleClick} />
       </Container>
+      <p className="text-gray-600 text-sm text-center mb-4 md:col-span-2 lg:col-span-4 mt-4">
+        Challenge by{' '}
+        <a
+          href="https://www.frontendmentor.io"
+          className="text-blue-800"
+          target="_blank"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{' '}
+        <a
+          href="https://www.frontendmentor.io/profile/roidzuh"
+          className="text-blue-800"
+          target="_blank"
+        >
+          Roid Zuhdianto
+        </a>
+        .
+      </p>
     </main>
   );
 }
