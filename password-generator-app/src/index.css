@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #08070b;
+}
+
+input[type='range'] {
+  -webkit-appearance: none; /* Menghilangkan gaya default di browser Webkit seperti Chrome dan Safari */
+  width: 100%; /* Lebar slider */
+  height: 10px; /* Tinggi slider */
+
+  border-radius: 5px; /* Membulatkan sudut slider */
+  outline: none; /* Menghilangkan outline saat elemen fokus */
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Menghilangkan gaya default thumb */
+  width: 25px; /* Lebar thumb */
+  height: 25px; /* Tinggi thumb */
+  border: 2px solid #e6e5ea; /* Membuat border untuk thumb */
+  background: #e6e5ea; /* Warna thumb */
+  border-radius: 50%; /* Membulatkan thumb */
+  cursor: pointer; /* Ubah cursor menjadi pointer saat hover */
+  transition: background 0.2s; /* Efek transisi untuk background thumb */
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #4caf50;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* Mengubah warna thumb menjadi hitam saat hover */
+input[type='range']:hover::-webkit-slider-thumb {
+  background: #18171f; /* Warna thumb saat hover */
+  border: #a4ffaf solid 2px; /* Membuat border untuk thumb saat hover */
+}
+
+input[type='range']:hover::-moz-range-thumb {
+  background: #18171f; /* Warna thumb saat hover untuk Firefox */
+  border: #a4ffaf solid 2px; /* Membuat border untuk thumb saat hover */
+}

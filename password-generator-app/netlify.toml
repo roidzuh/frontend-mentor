@@ -1,0 +1,4 @@
+[build]
+base = "password-generator-app"
+publish = "dist"
+command = "npm run build"
