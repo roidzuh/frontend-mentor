@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', system-ui;
+}
+
+/* styling progress bar */
+.progress-bar {
+  /* Styling for the progress element itself */
+  width: 100%;
+  height: 16px; /* Adjust height as needed */
+  border-radius: 15px; /* Desired border radius */
+  overflow: hidden; /* Ensure the inner elements respect the border radius */
+  background-color: #fff; /* Fallback background color */
+  padding: 4px; /* Adjust padding as needed */
+}
+
+.progress-bar::-webkit-progress-bar {
+  border-radius: 15px; /* Ensure the container has rounded corners */
+  background-color: #fff;
+}
+
+.progress-bar::-webkit-progress-value {
+  border-radius: 15px; /* Rounded corners on the progress value itself */
+  background-color: #a729f5; /* Progress bar color */
+}
+
+.progress-bar::-moz-progress-bar {
+  border-radius: 15px; /* Ensure the container has rounded corners */
+  background-color: #a729f5; /* Progress bar color */
+}
+
+/* 
+<!-- Display style -->
+<h1 class="font-rubik font-medium text-display">Display Text</h1>
+
+<!-- Heading L (Bold) -->
+<h2 class="font-rubik font-bold text-heading-l-bold">Heading L (Bold)</h2>
+
+<!-- Heading L (Regular) -->
+<h2 class="font-rubik font-regular text-heading-l-regular">Heading L (Regular)</h2>
+
+<!-- Heading M -->
+<h3 class="font-rubik font-regular text-heading-m">Heading M</h3>
+
+<!-- Heading S -->
+<h4 class="font-rubik font-medium text-heading-s">Heading S</h4>
+
+<!-- Body M -->
+<p class="font-rubik font-regular text-body-m">Body M text</p>
+
+<!-- Body S -->
+<p class="font-rubik font-regular text-body-s">Body S text</p>
+
+<!-- Paragraph with Italic -->
+<p class="font-rubik font-italic text-body-s">Italic paragraph text</p> */
+
+/* coba darkmode */
