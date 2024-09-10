@@ -14,3 +14,4 @@ Link Deploy Project:
 12. tip-calculator-app : https://tip-calculator-app-fe-me.netlify.app/
 13. password-generate-app : https://password-generate-frontendmentor-roid.netlify.app/
 14. frontend-quiz-app : https://frontend-quiz-frontendmentor-roid.netlify.app/
+15. interactive-rating-app : https://interactiverating-frontendmentor-roid.netlify.app/
